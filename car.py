@@ -28,17 +28,17 @@ clock = pygame.time.Clock()
 
 #load sprites
 #--------------------------------------------------
-gameIcon = pygame.image.load('carIcon.png')
+gameIcon = pygame.image.load('sprites/carIcon.png')
 
-carImg = pygame.image.load('racecar.png')
+carImg = pygame.image.load('sprites/racecar.png')
 
-en_carImg = pygame.image.load('policecar_left.png')
-en_carImg2 = pygame.image.load('policecar_right.png')
+en_carImg = pygame.image.load('sprites/policecar_left.png')
+en_carImg2 = pygame.image.load('sprites/policecar_right.png')
 
-bg_img1=pygame.image.load("bg.png").convert_alpha()
-bg_img2=pygame.image.load("bg.png").convert_alpha()
+bg_img1=pygame.image.load("sprites/bg.png").convert_alpha()
+bg_img2=pygame.image.load("sprites/bg.png").convert_alpha()
 
-men_img=pygame.image.load("bg.png").convert_alpha()
+men_img=pygame.image.load("sprites/bg.png").convert_alpha()
 #--------------------------------------------------
 
 #set game icon
