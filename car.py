@@ -171,7 +171,7 @@ def game_loop():
     other_cars_width = 50
     other_cars_height = 100
  
-    thingCount = 1
+    other_carsCount = 1
  
     dodged = 0
  
